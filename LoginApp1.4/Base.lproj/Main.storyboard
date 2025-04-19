@@ -82,7 +82,7 @@
                         <outlet property="loginButton" destination="OZ6-0n-WyV" id="wH4-OF-bmf"/>
                         <outlet property="passwordTF" destination="ZXC-Ik-0Sv" id="WLy-bb-I4q"/>
                         <outlet property="userNameTF" destination="vjV-Bv-oHx" id="9UT-JO-xyy"/>
-                        <segue destination="2xF-YW-8Fs" kind="presentation" identifier="showWelcomeVC" id="fJ5-g3-zUN"/>
+                        <segue destination="2xF-YW-8Fs" kind="presentation" identifier="showWelcomeVC" modalPresentationStyle="fullScreen" id="fJ5-g3-zUN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -94,7 +94,7 @@
             <objects>
                 <viewController id="2xF-YW-8Fs" customClass="WelcomeViewController" customModule="LoginApp1_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDs-Qh-CJh">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j99-MY-kFS">

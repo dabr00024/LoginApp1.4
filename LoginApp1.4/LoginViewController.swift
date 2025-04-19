@@ -32,7 +32,7 @@ class LoginViewController: UIViewController {
             showAlert(title: "Invalid login or password",
                       message: "Please, enter correct login and password")
             return}
-        performSegue(withIdentifier: "showWelcomeVC", sender: nil)
+       // performSegue(withIdentifier: "showWelcomeVC", sender: nil)
     }
     @IBAction func forgotNameButtonTap() {
         showAlert(title: "Oops!", message: "Your name is \(user) ☠️")}
